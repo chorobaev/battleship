@@ -3,31 +3,31 @@ A demo game in python using tkinter.
 
 <img src="https://github.com/chorobaev/BattleShip-game-in-Python/blob/master/sreenshots/main.jpg"/>
 
-More sreenshots [here](https://github.com/chorobaev/BattleShip-game-in-Python/tree/master/sreenshots).
+More screenshots [here](https://github.com/chorobaev/BattleShip-game-in-Python/tree/master/sreenshots).
 
-## Requirments: 
-  1. Python3.+.
+## Requirements: 
+  1. Python 3.+.
   2. PNG viewing in the GUI: Python Imaging Library (**PIL**) *ImageTk*. 
     Can be installed using command `sudo apt-get install python-imaging-tk` for linux. 
     It is optional. If you don't want the cool image background as shown above, you can skip this.
 
 ## Setup instructions:
   1. Download or import the project.
-  2. Onpen `main.py` file (if you don't have installed **PIL** you should open `main_without_image.py`).
+  2. Open `main.py` file (if you don't have installed **PIL** you should open `main_without_image.py`).
   3. Run and enjoy the game.
   
-## Createing a custom bot:
+## Creating a custom bot:
   If someone wants to create own bot and play agains it, it is possible to create and integrate custom bots.
-  Bellow is an instuction how to do that.
+  Sees the instruction how to do that, bellow.
       
-### Bot class requirments:
+### Bot class requirements:
   1. It must be a class
   2. It must have a function `say(value: str)` that returns *tuple* of Integers, 
-  coordinates of the fied where the bot wants to shoot `(x, y)`.
+  coordinates of the field where the bot wants to shoot `(x, y)`.
   There, `value` is a string which can be only one of these values:
       * "**shoot**" - means, the player missed, and bot's turn.
-      * "**hit**" - means, bot's previos shoot was successful, but didn't destroy the player's ship complately.
-      * "**destroyed**" - means, bot's previos shoot was successful, and destroyed the player's ship complately.
+      * "**hit**" - means, bot's previous shoot was successful, but didn't destroy the player's ship complataly.
+      * "**destroyed**" - means, bot's previous shoot was successful, and destroyed the player's ship complataly.
   As an example open `bots.py` file, and see the bot ***Fati***.
   
 ### Adding the custom bot:
