@@ -42,4 +42,4 @@ More screenshots [here](https://github.com/chorobaev/BattleShip-game-in-Python/t
   (here *"CustomBot"* the same as within step **5**)
   
   
-*If you have any questions feel free to ask chorobaev.nurbol@gmail.com =)*
+*If you have any questions, feel free to ask chorobaev.nurbol@gmail.com =)*
