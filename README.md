@@ -43,3 +43,5 @@ More screenshots [here](https://github.com/chorobaev/BattleShip-game-in-Python/t
   
   
 *If you have any questions, feel free to ask chorobaev.nurbol@gmail.com =)*
+
+Copyright (c) 2018 Nurbol Chorobaev 
