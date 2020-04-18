@@ -17,14 +17,14 @@ More screenshots [here](https://github.com/chorobaev/BattleShip-game-in-Python/t
   3. Run and enjoy the game.
   
 ## Creating a custom bot:
-  If someone wants to create own bot and play agains it, it is possible to create and integrate custom bots.
-  Sees the instruction how to do that, bellow.
+  If someone wants to create own bot and play agains it, it is possible to create and integrate a custom bot.
+  Sees the instruction how to do that, below.
       
 ### Bot class requirements:
   1. It must be a class
   2. It must have a function `say(value: str)` that returns *tuple* of Integers, 
   coordinates of the field where the bot wants to shoot `(x, y)`.
-  There, `value` is a string which can be only one of these values:
+  There, `value` is a string which can be only one of these three values:
       * "**shoot**" - means, the player missed, and bot's turn.
       * "**hit**" - means, bot's previous shoot was successful, but didn't destroy the player's ship complataly.
       * "**destroyed**" - means, bot's previous shoot was successful, and destroyed the player's ship complataly.
