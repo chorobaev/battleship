@@ -24,7 +24,7 @@ class Main(object):
 
         # Putting background image
         image = Image.open(res.Strings.APP_BACKGROUND)
-        image = ImageOps.fit(image, [res.Dimensions.APP_MIN_WIDTH, res.Dimensions.APP_MIN_HEIGHT], Image.ANTIALIAS)
+        image = ImageOps.fit(image, [res.Dimensions.APP_MIN_WIDTH, res.Dimensions.APP_MIN_HEIGHT], Image.Resampling.LANCZOS)
         photo = ImageTk.PhotoImage(image)
         self.__background = Label(self.__root,
                                   image=photo)
